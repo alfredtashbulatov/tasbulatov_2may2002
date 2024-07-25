@@ -18,10 +18,12 @@
 - allure
 
 ### Структура 
-- api (ветка с тестами и методами api)
+- ./test - тесты 
+  - test_api.py - Api тесты
+  - test_ui.py - Ui тесты
  - conftest.py - Файл с фикстурами 
  - user_api.py - Методы для Аpi тестов
- - test_api.py - api тесты
+ - main_page.py - Методы для UI тестов
 
 ### Библиотеки
 - pip install pytest
@@ -34,4 +36,7 @@
 ### Запуск тестов 
 - pytest (Запуск всех тестов )
 - pytest - m api (Запуск api тестов )
+- pytest - m ui (Запуск ui тестов )
+- python -m pytest --alluredir allure-result (Запустить тесты с указанием пути к каталогу результатов тестирования)
+- allure serve allure-results (Запустить Allure и конвертирует результаты теста в отчет)
 
