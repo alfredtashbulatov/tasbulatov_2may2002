@@ -1,0 +1,37 @@
+Перед выполнением запросов заполнить 
+
+Запрос 1
+Добавление товара в корзину 
+1. Метод: POST
+2. URL: https://www.sibdar-spb.ru/ajax/basketOrder.php
+3. Headers:
+3.1 accept : application/json, text/javascript, */*; q=0.01
+3.2 content-type : application/x-www-form-urlencoded; charset=UTF-8
+3.3 cookie : BX_USER_ID=e42b17dc97fd5d3a8ea4a806a2fd0eca; _ym_uid=1721241962222052932;
+_ym_d=1721241962; basketor=845543; PHPSESSID=5HJQrX1FbXGwwYHyMorj3VPk9CKV6W0G; _ym_isad=2; _ym_visorc=w
+4. Body : raw
+4.1 data=%7B%22idCookie%22%3A%22845543%22%2C%22idProd%22%3A%22413%22%2C%22type%22%3A%22add%22%7D
+
+Запрос 2
+Прибавление количества товара в корзине
+1. Метод: POST
+2. URL: https://www.sibdar-spb.ru/ajax/basketOrder.php
+3. Headers:
+3.1 accept : application/json, text/javascript, */*; q=0.01
+3.2 content-type : application/x-www-form-urlencoded; charset=UTF-8
+3.3 cookie : BX_USER_ID=e42b17dc97fd5d3a8ea4a806a2fd0eca; _ym_uid=1721241962222052932;
+_ym_d=1721241962; basketor=845543; PHPSESSID=5HJQrX1FbXGwwYHyMorj3VPk9CKV6W0G; _ym_isad=2
+4. Body : raw
+4.1 data=%7B%22idCookie%22%3A%22845543%22%2C%22idProd%22%3A%22413%22%2C%22type%22%3A%22add%22%7D
+
+Запрос 3
+Удаление товара из корзины
+1. Метод: POST
+2. URL: https://www.sibdar-spb.ru/ajax/basketOrder.php
+3. Headers:
+3.1 accept : application/json, text/javascript, */*; q=0.01
+3.2 content-type : application/x-www-form-urlencoded; charset=UTF-8
+3.3 cookie : BX_USER_ID=e42b17dc97fd5d3a8ea4a806a2fd0eca; _ym_uid=1721241962222052932;
+_ym_d=1721241962; basketor=845543; PHPSESSID=5HJQrX1FbXGwwYHyMorj3VPk9CKV6W0G; _ym_isad=2
+4. Body : raw
+4.1 data=%7B%22idCookie%22%3A%22845543%22%2C%22idProd%22%3A%22413%22%2C%22type%22%3A%22add%22%7D
