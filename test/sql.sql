@@ -11,4 +11,4 @@ SELECT name FROM  Categories order by desc
 SELECT (name, description) FROM Mushrooms WHERE category_id = (сьедобные) and primary_region_id = (самые большие по размеру регионы)
 
 -- Выведите названия всех грибов, которые растут весной, относятся к категории «Пластинчатые» и которые лучше всего собирать в местах размером до 6000 условных единиц (size).
-SELECT name from Mushrooms where season (весна) and mushroom_id = («Пластинчатые») and size < 6000
+SELECT name from Mushrooms where season (весна) and mushroom_id = («Пластинчатые») and size < 6000\
